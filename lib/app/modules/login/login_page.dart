@@ -29,8 +29,7 @@ class LoginPage extends GetView<LoginController> {
             return Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                IconButton(onPressed: controller.logIN, icon: const Icon(Icons.people, size: 100)),
-                SizedBox(height: 16),
+               
                 ElevatedButton.icon(
                   icon: Icon(Icons.login),
                   label: Text("Login with Google"),
